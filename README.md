@@ -2,6 +2,8 @@
 
 IKnow is an interactive quiz application that allows users to create, manage, and play quizzes for fun or educational purposes. The application features user authentication, quiz creation and management, and quiz playing functionality.
 
+**Live Demo**: [https://i-know-chi.vercel.app](https://i-know-chi.vercel.app)
+
 ## Features
 
 - **User Authentication**: Register, login, and manage your profile
@@ -123,7 +125,16 @@ IKnow is an interactive quiz application that allows users to create, manage, an
 
 ## Deployment
 
-To deploy the application:
+### Current Deployment
+
+The application is currently deployed on Vercel:
+- **Live Demo**: [https://i-know-chi.vercel.app](https://i-know-chi.vercel.app)
+
+### Self-Deployment Options
+
+#### Manual Deployment
+
+To deploy the application manually:
 
 1. Build the frontend
    ```sh
@@ -137,6 +148,18 @@ To deploy the application:
    cd server
    npm start
    ```
+
+#### Vercel Deployment
+
+To deploy on Vercel:
+
+1. Fork or clone this repository to your GitHub account
+2. Connect your GitHub repository to Vercel
+3. Configure the build settings:
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+4. Set up environment variables in the Vercel dashboard
+5. Deploy
 
 ## Contributing
 
